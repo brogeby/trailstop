@@ -1,0 +1,66 @@
+/* This code is for the header 
+Written by: Ludvig Olausson
+*/
+.container {
+    display: grid;
+    grid-template-columns: 162px 1.5fr 46px 43px;
+    grid-template-areas: "Logo . Basket Hamburger";
+    background-color: #fff;
+    height: 82px;
+}
+.Logo { 
+    grid-area: Logo; 
+    margin: 28px 20px
+}
+.Basket { 
+    grid-area: Basket; 
+    margin: 28px 0px 0px -13px;
+}
+.Hamburger { 
+    grid-area: Hamburger; 
+    margin: 12px 20px;
+}
+.container > div:nth-child(1) {
+    background: url(../img/Trailstop.svg);
+    width: 182px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
+.container > div:nth-child(2) {
+    width: 30%;
+}
+.hamburger {
+    width: 35px;
+    height: 40px;
+    margin: 9px 10%;
+    float: right;
+    cursor: pointer;
+    z-index: 2000;
+}
+span {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(0, 0, 0);
+    margin: 6px 0;
+    display: block;
+}
+.shipping{
+    width: 100%;
+    height: 22px;
+    background-color: #fff;
+    color: #6C6C6C;
+    padding-top: 3px;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+.shipping > img {
+    margin-top: 3px;
+}
+.shipping p {
+    margin-top: -21px;
+    text-align: center;
+}
+.midc {
+    width: 200px;
+    margin: auto;
+}
