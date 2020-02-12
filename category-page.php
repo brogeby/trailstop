@@ -21,7 +21,7 @@
        <div class="product2"></div>
        <div class="product3"></div>
        <div class="product4"></div>
-       <div class="product5"></div>
+       <div class="product5"></div> 
        <div class="product6"></div>
 
     </main>
