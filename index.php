@@ -5,10 +5,13 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Trailstop</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
 </head>
 <body>
-<?php include "parts/header.php";?>
+<?php 
+include "parts/header.php";
+include "parts/phone_menu.php";
+?>
    
 </body>
 </html>
