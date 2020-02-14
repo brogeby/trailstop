@@ -1,9 +1,23 @@
-.product-image {width: 500px;}
-.brand-image {width: 500px;}
-
-.product-display {
-    width: 100%;
+.grid-container {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 200px 50px;
     grid-template-columns: 100%;
 }
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100%;
+}
+
+.product {width: 80%; grid-column: 1 / 13; grid-row: 1 / 2; z-index: -1; justify-self: center; align-self: flex-end;}
+.brand {width: 80%; grid-column: 10 / 13; grid-row: 1 / 2; margin-top: 20px;}
+
+.info {
+    display: grid;
+    grid-template-columns: auto 30px auto;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.price {justify-self: center;}
