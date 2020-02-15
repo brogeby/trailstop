@@ -23,9 +23,12 @@
     </div>
     <div class="info">
         <div class="product-name">Altitude Carbon 90</div>
-        <div class="cart">Cart</div>
         <div class="price">79 900kr</div>
+    </div>
+    <div class="cart">
+        <h2>Lägg i varukorgen</h2>
     </div>
 </section>
 
 </html>
+
