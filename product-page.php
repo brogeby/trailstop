@@ -30,5 +30,29 @@
     </div>
 </section>
 
+<section class="specifications">
+    <h2>Specifications</h2>
+    <h3>Frame</h3>
+    <p>SMOOTHWALL Carbon. Full Sealed Cartridge Bearings. Press Fit BB. Internal Cable Routing. 2-Bolt ISCG05 Tabs. RIDE-9 Adjustable Geometry + Suspension Rate</p>
+    <h3>Sizes</h3>
+    <p>XS - S - M - L - XL</p>
+    <h3>Fork</h3>
+    <p>Fox 36 Float EVOL GRIP2 Factory 160mm 37mm Offset</p>
+    <h3>Shock</h3>
+    <p>Fox Float DPX2 Factory</p>
+    <h3>Handlebar</h3>
+    <p>Race Face Next R 780mm</p>
+    <h3>Brakes</h3>
+    <p>Shimano XTR Trail 4 Piston / Shimano RT86 180mm / Shimano RT86 180mm</p>
+    <h3>Shifters</h3>
+    <p>Shimano XTR</p>
+    <h3>Rear Derailleur</h3>
+    <p>Shimano XTR</p>
+    <h3>Tires</h3>
+    <p>Maxxis Minion DHF WT Maxx Terra 3C Tubeless Ready 27.5 x 2.5 / Maxxis Aggressor WT EXO Tubeless Ready 27.5 x 2.5</p>
+    <h3>Seatpost</h3>
+    <p>Race Face Turbine R (by Fox) Dropper 30.9mm</p>
+</section>
+
 </html>
 
