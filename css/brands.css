@@ -1,1 +1,166 @@
 /* BRANDS-PAGE STYLING */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+
+*, *:before, *:after {
+    box-sizing: border-box;
+ }
+
+ html , body {
+     width:100%;
+     height:100%;
+ }
+
+
+  .wrapper {
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto 200px;
+    grid-gap: 2%;
+    grid-template-areas:
+        "content content content content content content content content content content content content"
+        "content content content content content content content content content content content content"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+  }
+
+  .cell-1 {
+      grid-area:header;
+  }
+  .cell-2 {
+      grid-area:content;
+  }
+
+  .cell-8{
+       grid-area:footer;
+       display: grid;
+       border:1px solid black;
+       grid-template-columns: 2fr 2fr 2fr 2fr;
+       grid-gap:2%;
+       grid-template-areas: 
+         "footer1 footer2 footer3 footer4"
+   }
+
+   .cell-9 {
+       grid-area:footer1;
+       margin:10px;
+       border:1px solid black;
+   }
+   .cell-10{
+       grid-area:footer2;
+       margin:10px;
+       border:1px solid black;
+   }
+   .cell-11{
+       grid-area:footer3;
+       margin:10px;
+       border:1px solid black;
+   }
+   .cell-12 {
+       grid-area:footer4;
+       margin:10px;
+       border:1px solid black;
+   }
+  
+   .cell-2 {
+       flex-direction:row;
+       flex-wrap:wrap;
+       display:flex;
+       align-items:center;
+       margin-left:50px;
+     
+   }
+
+   .logo {
+       width:20%;
+       margin:30px;
+       margin-left:100px;
+      
+    }
+
+     /*Ipad Pro 12.9*/
+  @media  (max-width: 1024px){
+    .wrapper{
+      display:grid;
+      grid-template-columns:repeat(12,1fr);
+      grid-template-rows: auto 200px;
+      grid-template-areas:
+        "content content content content content content content content content content content content"
+        "content content content content content content content content content content content content"
+        "footer footer footer footer footer footer footer footer footer footer footer footer";
+    }
+    .logo{
+        width:25%;
+        margin-left:50px;
+    }
+  
+
+}
+
+    /*Ipad*/
+   @media (max-width: 768px){
+    .wrapper{
+      display:grid;
+      grid-gap:2%;
+      grid-template-columns:repeat (12, 1fr);
+      grid-template-rows: auto 100px;
+      grid-template-areas:
+        "content content content content content content content content content content content content"
+        "content content content content content content content content content content content content"
+        "footer footer footer footer footer footer footer footer footer footer footer footer" ;   
+       
+    }
+
+    .logo{
+        width:20%;
+        margin-left:40px;
+      
+    }
+
+    .cell-8{
+      display:grid;
+      grid-gap:3%;
+      height:400px;
+      grid-template-areas:
+       "footer1 footer1 footer2 footer2"
+       "footer3 footer3 footer4 footer4";   
+       
+    }
+}
+    /*mobil*/
+   @media (max-width:480px){
+    .wrapper{
+     height:auto;
+     display:grid;
+     grid-template-columns:repeat(4, 1fr) ;
+     grid-template-rows:auto 100px;
+     grid-template-areas: 
+      "content content content content"
+      "content content content content"
+      "content content content content"
+      "content content content content"
+      "content content content content"
+      "content content content content"
+      "footer footer footer footer";
+       
+    }
+    .cell-8{
+      display:grid;
+      grid-gap:3%;
+      height:400px;
+      grid-template-areas:
+       "footer1 footer1 footer1 footer1"
+       "footer2 footer2 footer2 footer2"
+       "footer3 footer3 footer3 footer3"
+       "footer4 footer4 footer4 footer4";   
+       
+    }
+    .logo{
+        width:30%;
+        margin-left:40px;
+    }
+  }
+
+
+
