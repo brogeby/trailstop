@@ -14,11 +14,15 @@
     include "parts/header.php";
     include "parts/phone_menu.php";
 ?> 
+  <div class="header">
+    <img class="hero" src="img/hero_back.jpg" alt="hero_background">
+    <div class="herotext">Brands</div>
+</div>
   <div class="wrapper">
     <div class="cell-2">
       <div class="logo"> 
          <a href="https://www.specialized.com/se/en">
-        <img class="specialized" src="img/specialized-logo-1.png" width="200" height="250" alt="Specialized"></a>
+        <img class="specialized" src="img/specialized-logo-1.png" width="200" height="100%" alt="Specialized"></a>
       </div>
       <div class="logo">
          <a href="https://www.trekbikes.com/se/sv_SE/">
