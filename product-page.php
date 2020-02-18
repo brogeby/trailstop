@@ -16,7 +16,7 @@
     include "parts/phone_menu.php"; 
 ?>
 
-<section class="grid-container">
+<section class="product-display-container">
     <div class="images">
         <img src="img/Web_MY20_Altitude_C90_C2_Profile_0.jpg" class="product">
         <img src="img/1_RMB_Headbadge_Colour_rgb.png" class="brand">
@@ -32,26 +32,27 @@
 
 <section class="specifications">
     <h2>Specifications</h2>
-    <h3>Frame</h3>
-    <p>SMOOTHWALL Carbon. Full Sealed Cartridge Bearings. Press Fit BB. Internal Cable Routing. 2-Bolt ISCG05 Tabs. RIDE-9 Adjustable Geometry + Suspension Rate</p>
-    <h3>Sizes</h3>
-    <p>XS - S - M - L - XL</p>
-    <h3>Fork</h3>
-    <p>Fox 36 Float EVOL GRIP2 Factory 160mm 37mm Offset</p>
-    <h3>Shock</h3>
-    <p>Fox Float DPX2 Factory</p>
-    <h3>Handlebar</h3>
-    <p>Race Face Next R 780mm</p>
-    <h3>Brakes</h3>
-    <p>Shimano XTR Trail 4 Piston / Shimano RT86 180mm / Shimano RT86 180mm</p>
-    <h3>Shifters</h3>
-    <p>Shimano XTR</p>
-    <h3>Rear Derailleur</h3>
-    <p>Shimano XTR</p>
-    <h3>Tires</h3>
-    <p>Maxxis Minion DHF WT Maxx Terra 3C Tubeless Ready 27.5 x 2.5 / Maxxis Aggressor WT EXO Tubeless Ready 27.5 x 2.5</p>
-    <h3>Seatpost</h3>
-    <p>Race Face Turbine R (by Fox) Dropper 30.9mm</p>
+    <div class="frame"><h3>Frame</h3>
+    <p>SMOOTHWALL Carbon. Full Sealed Cartridge Bearings. Press Fit BB. Internal Cable Routing. 2-Bolt ISCG05 Tabs. RIDE-9 Adjustable Geometry + Suspension Rate</p></div>
+    <div><h3>Sizes</h3>
+    <p>XS - S - M - L - XL</p></div>
+    <div><h3>Fork</h3>
+    <p>Fox 36 Float EVOL GRIP2 Factory 160mm 37mm Offset</p></div>
+    <div><h3>Shock</h3>
+    <p>Fox Float DPX2 Factory</p></div>
+    <div><h3>Handlebar</h3>
+    <p>Race Face Next R 780mm</p></div>
+    <div><h3>Shifters</h3>
+    <p>Shimano XTR</p></div>
+    <div><h3>Rear Derailleur</h3>
+    <p>Shimano XTR</p></div>
+    <div><h3>Brakes</h3>
+    <p>Shimano XTR Trail 4 Piston / Shimano RT86 180mm / Shimano RT86 180mm</p></div>
+    <div><h3>Seatpost</h3>
+    <p>Race Face Turbine R (by Fox) Dropper 30.9mm</p></div>
+    <div><h3>Tires</h3>
+    <p>Maxxis Minion DHF WT Maxx Terra 3C Tubeless Ready 27.5 x 2.5 / Maxxis Aggressor WT EXO Tubeless Ready 27.5 x 2.5</p></div>
+    
 </section>
 
 </html>
