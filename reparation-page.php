@@ -6,7 +6,7 @@
     <title>Trailstop | Rocky Mountain Altitude</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/product.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/reparation.css'>
 
 </head>
 <body>
