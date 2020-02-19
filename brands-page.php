@@ -14,35 +14,41 @@
     include "parts/header.php";
     include "parts/phone_menu.php";
 ?> 
-  <div class="header">
-    <img class="hero" src="img/hero_back.jpg" alt="hero_background">
+  <div class="cell-1">
+    <img class="hero" src="img/hero_back.jpg">
     <div class="herotext">Brands</div>
 </div>
   <div class="wrapper">
     <div class="cell-2">
       <div class="logo"> 
          <a href="https://www.specialized.com/se/en">
-        <img class="specialized" src="img/specialized-logo-1.png" width="200" height="100%" alt="Specialized"></a>
+        <img class="specialized" src="img/specialized-logo-1.png" width="100%" height="100%" alt="Specialized"></a>
+        <div class="desc">Specialized. Made for riders, by riders.<br><a class="link" href="https://www.specialized.com/se/en">Read more</a></div>
       </div>
       <div class="logo">
          <a href="https://www.trekbikes.com/se/sv_SE/">
-         <img class="trek" src="img/trek_logo.png" width="150" height="100" alt="trek"></a>
+         <img class="trek" src="img/trek_logo.png" width="100%" height="100%" alt="trek"></a>
+        <div class="desc">Ride bikes.Have fun.Feel good.<br><a class="link" href="https://www.trekbikes.com/se/sv_SE/">Read more</a></div>
       </div>
         <div class="logo">
          <a href="https://www.cube.eu/cube-bikes/">
-        <img class="cube" src="img/cube_logo.png" width="200" height="150" alt="Cube"></a>
+        <img class="cube" src="img/cube_logo.png" width="100%" height="100%" alt="Cube"></a>
+        <div class="desc">The German bike enthusiasts have designed their new models with pure riding fun in mind.<br><a class="link" href="https://www.cube.eu/cube-bikes/">Read more</a></div>
       </div>
         <div class="logo">
          <a href="https://www.bikes.com/">
-          <img class="rocky" src="img/rocky_logo.png" width="200" height="150" alt="Rocky Mountain"></a>
-        </div>
+          <img class="rocky" src="img/rocky_logo.png" width="100%" height="100%" alt="Rocky Mountain"></a>
+        <div class="desc">Taking the trail to new heights.<br><a class="link" href="https://www.bikes.com/">Read more</a></div>
+      </div>
         <div class="logo">
          <a href="https://www.scott-sports.com/se/en/products/bike-bikes">
-          <img class="scott" src="img/scott_logo.png" width="200" height="150" alt="Scott"></a>
-        </div>
+          <img class="scott" src="img/scott_logo.png" width="100%" height="100%" alt="Scott"></a>
+        <div class="desc">At SCOTT, cycling is part of our life. Guided by innovation, technology and design, we develop some of the best bikes, apparel and equipment for you.<br><a class="link" href="https://www.scott-sports.com/se/en/products/bike-bikes">Read more</a></div>
+      </div>
         <div class="logo">
          <a href="https://www.yeticycles.com/">
-          <img class="trek" src="img/yeti_logo.png" width="200" height="150" alt="Yeti"></a>
+          <img class="yeti" src="img/yeti_logo.png" width="100%" height="100%" alt="Yeti"></a>
+          <div class="desc">Yeti Cycles is a high-end mountain bike manufacturer. We are Ride Driven.<br><a class="link" href="https://www.yeticycles.com/">Read more</a></div>
         </div>
    </div>
     <footer class="cell-8">
