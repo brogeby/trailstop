@@ -6,7 +6,7 @@ body {
     box-sizing: border-box;
   }
   
-header .hero {width: 100%;}
+header .hero {width: 100%; margin-top: 50px;}
 
   .flex-wrapper {
     width: 80%;
