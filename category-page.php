@@ -13,19 +13,32 @@
     include "parts/header.php";
     include "parts/phone_menu.php";
 ?> 
-        <div class="container">
-            <div class="brands"></div>
-            <div class="pointer"></div>
-            <div class="Item1"></div>
-            <div class="Item2"></div>
-            <div class="Item3"></div>
-            <div class="Item4"></div>
-            <div class="Item5"></div>
-            <div class="Item6"></div>
-            <div class="Item7"></div>
-            <div class="Item8"></div>
-            <div class="Item9"></div>
-        </div>
+
+<div class="grid-container">
+    
+    
+    <select class="Sortera">
+        <option>Sortera</option>
+        <option>Högst Pris</option>
+        <option>Lägst Pris</option>
+    </select>
+    
+    
+    <select class="filter">Filtrera
+        <option>Sortera</option>
+        <option>Högst Pris</option>
+        <option>Lägst Pris</option>		
+    </select>
+    
+    
+    <!--<div class="item4">Produkt 1</div>
+    <div class="item5">Produkt 2</div>
+    <div class="item6">Produkt 3</div>
+    <div class="item7">Produkt 4</div>
+    <div class="item8">Produkt 5</div>
+    <div class="item9">Produkt 6</div>
+    <div class="item10">Footer</div>-->
+</div>
 
     
 </body>
