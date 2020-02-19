@@ -13,18 +13,20 @@
     include "parts/header.php";
     include "parts/phone_menu.php";
 ?> 
-    <main class="main-site">
-       <h2>Mountainbikes</h2>
-       <button class="sortera">Sortera</button>
-       <button class="filtrera">Filtrera</button>
-       <div class="product1"></div>
-       <div class="product2"></div>
-       <div class="product3"></div>
-       <div class="product4"></div>
-       <div class="product5"></div> 
-       <div class="product6"></div>
+        <div class="container">
+            <div class="brands"></div>
+            <div class="pointer"></div>
+            <div class="Item1"></div>
+            <div class="Item2"></div>
+            <div class="Item3"></div>
+            <div class="Item4"></div>
+            <div class="Item5"></div>
+            <div class="Item6"></div>
+            <div class="Item7"></div>
+            <div class="Item8"></div>
+            <div class="Item9"></div>
+        </div>
 
-    </main>
     
 </body>
 </html>
