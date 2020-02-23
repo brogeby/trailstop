@@ -7,7 +7,16 @@
   font-size: 29px;
   color: #F4F4F4;
 }   
-.trapezoid {
+.draw-container > .trapezoid:first-of-type {
+  border-bottom: 51px solid #2A2A2A;
+  border-left: 0px solid transparent;
+  border-right: 35px solid transparent;
+  height: 0;
+  width: 200px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.draw-container .trapezoid:last-of-type {
   border-bottom: 51px solid #67539E;
   border-left: 0px solid transparent;
   border-right: 35px solid transparent;

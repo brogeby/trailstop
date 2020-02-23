@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Trailstop</title>
@@ -10,7 +11,9 @@
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/bar.css">
     <link rel="stylesheet" href="css/front-page-products.css">
+    <link rel="stylesheet" href="css/recommended.css">
     <script src="js/phone_menu.js"></script>
+    <style>#arrow_y{transition: .5s;}</style>
 </head>
 <body>
 <?php 
@@ -19,6 +22,9 @@
     include "parts/front-page/slider.php";
     include "parts/front-page/bar.php";
     include "parts/front-page/front-page-products.php";
+    include "parts/front-page/bar.php";
+    include "parts/front-page/recommended.php";
+    
 ?>
     <script src="js/slider.js"></script>
     <script src="js/arrow_position.js"></script>
