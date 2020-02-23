@@ -15,8 +15,9 @@ a {text-decoration: none;color:#000;font-size: 22.56px;line-height: 26px;}
 }
 .Logo { 
     grid-area: Logo; 
-    margin: 28px 20px
-}
+    margin: 28px 20px;
+    cursor: pointer;
+} 
 .Basket { 
     grid-area: Basket; 
     margin: 28px 0px 0px -13px;

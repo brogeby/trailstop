@@ -8,4 +8,5 @@
     top: 0px;
     position: fixed;
     transition: .3s;
+    cursor: pointer;
 }
