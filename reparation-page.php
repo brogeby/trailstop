@@ -39,7 +39,7 @@
         </li>
         <li>
           <label for="model">Modell</label>
-          <input type="tel" id="model" placeholder="Modell inklusive årsmodell">
+          <input type="text" id="model" placeholder="Modell inklusive årsmodell">
         </li>
         <li>
           <label for="message">Ärende</label>
