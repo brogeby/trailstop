@@ -21,5 +21,6 @@
     include "parts/front-page/front-page-products.php";
 ?>
     <script src="js/slider.js"></script>
+    <script src="js/arrow_position.js"></script>
 </body>
 </html> 

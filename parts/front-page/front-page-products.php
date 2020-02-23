@@ -1,13 +1,16 @@
 <div class="_procontainer">
-  <div class="brands"></div>
-  <div class="pointer"><img src="../img/doublearrow.svg" alt="Arrow" width="32"></div>
-  <div class="Item1"></div>
-  <div class="Item2"></div>
-  <div class="Item3"></div>
-  <div class="Item4"></div>
-  <div class="Item5"></div>
-  <div class="Item6"></div>
-  <div class="Item7"></div>
-  <div class="Item8"></div>
-  <div class="Item9"></div>
+  <div class="brands" onmousemove="showCoords(event)"></div>
+  <div class="pointer"><img id="arrow_y" src="../img/doublearrow.svg" alt="Arrow" width="32"></div>
+  <?php 
+  for($i_item = 1 ;$i_item <= 9; $i_item++){
+    echo '<div class=Item' . $i_item .'>
+            <div class="cont" onclick="window.location.href="product-page.php">
+            <div class="img_c"><img src="http://ludvigolausson.se/img/mtn_bike_scott.jpg" width="100%"></div>
+            <div class="brand_n">SCOTT</div>
+            <div class="title">SCOTT Mountainbike</div>
+            <div class="prize">6550kr</div>
+        </div>
+    </div>';
+  }
+  ?>
 </div>
