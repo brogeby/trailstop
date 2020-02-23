@@ -5,14 +5,9 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Trailstop | Rocky Mountain Altitude</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/product.css'>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </head>
 <body>
 <script src="js/phone_menu.js"></script>
@@ -20,51 +15,58 @@
     include "parts/header.php";
     include "parts/phone_menu.php"; 
 ?>
-
-<section class="hero">
-  <img src="img/SSC.png" alt="Shimano Service Center">
+<section>
+    <div>
+        <div><h4>Altitude Carbon 90</h4></div>
+        <div><h4>79 900kr</h4></div>
+    </div>  
+    <div>
+        <img src="img/Web_MY20_Altitude_C90_C2_Profile_0.jpg" class="product">
+        <img src="img/1_RMB_Headbadge_Colour_rgb.png" class="brand">
+    </div>
+    <div>
+        <h4>Lägg i varukorgen</h4>
+    </div>
 </section>
 
-<main class="flex-wrapper">
-  <section class="form-wrapper">
-    <form>
-      <h2>Serviceformulär</h2>
-      <ul class="flex-form">
-        <li>
-          <label for="name">Namn</label>
-          <input type="text" id="name" placeholder="Skriv ditt fullständiga namn">
-        </li>
-        <li>
-          <label for="phone">Telefonnummer</label>
-          <input type="tel" id="phone" placeholder="Inklusive riktnummer">
-        </li>
-        <li>
-          <label for="brand">Märke</label>
-          <input type="brand" id="brand" placeholder="Cykelns märke">
-        </li>
-        <li>
-          <label for="model">Modell</label>
-          <input type="tel" id="model" placeholder="Modell inklusive årsmodell">
-        </li>
-        <li>
-          <label for="message">Ärende</label>
-          <textarea rows="6" id="message" placeholder="Beskriv ditt problem här"></textarea>
-        </li>
-        <li>
-          <button type="submit">Skicka</button>
-        </li>
-      </ul>
-    </form>
-  </section>
-
-  <aside class="service-partners">
-    <h2>Service Partners</h2>
-    <img src="img\rockshox.jpg" alt="Rockshox">
-    <img src="img\Ohlins_logo.png" alt="Öhlins">
-    <img src="img\fox.jpg" alt="Fox Racing Shox">
-    <img src="img\1491987590096.jpg" alt="Shimano Service Center">
-  </aside>
-</main>
-
-</body>
+<section>
+    <h2>Specifications</h2>
+    <div>
+        <h3>Frame</h3>
+        <p>SMOOTHWALL Carbon. Full Sealed Cartridge Bearings. Press Fit BB. Internal Cable Routing. 2-Bolt ISCG05 Tabs. RIDE-9 Adjustable Geometry + Suspension Rate</p>
+    </div>
+    <div>
+        <h3>Fork</h3>
+        <p>Fox 36 Float EVOL GRIP2 Factory 160mm 37mm Offset</p>
+    </div>
+    <div>
+        <h3>Shock</h3>
+        <p>Fox Float DPX2 Factory</p>
+    </div>
+    <div>
+        <h3>Handlebar</h3>
+        <p>Race Face Next R 780mm</p>
+    </div>
+    <div>
+        <h3>Shifters</h3>
+        <p>Shimano XTR</p>
+    </div>
+    <div>
+        <h3>Rear Derailleur</h3>
+        <p>Shimano XTR</p>
+    </div>
+    <div>
+        <h3>Seatpost</h3>
+        <p>Race Face Turbine R (by Fox) Dropper 30.9mm</p>
+    </div>
+    <div>
+        <h3>Brakes</h3>
+        <p>Shimano XTR Trail 4 Piston / Shimano RT86 180mm / Shimano RT86 180mm</p>
+    </div>
+    <div>
+        <h3>Tires</h3>
+        <p>Maxxis Minion DHF WT Maxx Terra 3C Tubeless Ready 27.5 x 2.5 / Maxxis Aggressor WT EXO Tubeless Ready 27.5 x 2.5</p>
+    </div>
+</section>
 </html>
+
