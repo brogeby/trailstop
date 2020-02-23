@@ -64,7 +64,7 @@ a {text-decoration: none;color:#000;font-size: 22.56px;line-height: 26px;}
     cursor: pointer;
     z-index: 2000;
 }
-span {
+.hamburger span {
     width: 35px;
     height: 5px;
     background-color: rgb(0, 0, 0);

@@ -2,7 +2,7 @@ window.addEventListener('click', function(e){
     if (document.getElementById('menu').contains(e.target) || document.getElementById('ham_menu').contains(e.target)){
         menu.style.right = "0%";
     } else{
-        menu.style.right = "-50%";
+        menu.style.right = "-85%";
     }
     if (document.getElementById('toggle').contains(e.target)){
         toggle.style.marginRight = "100px";
