@@ -12,7 +12,7 @@
         4    => "../../img/logotypes/rockymountain.png",
         5    => "../../img/logotypes/specialized.png",
     );
-  for($brand = 1 ;$brand <= 9; $brand++){
+  for($brand = 1 ;$brand <= count($brand_list); $brand++){
     echo '<div id="brand' . $brand . '">
         <img src="' . $brand_list[$brand] . '" width="100%">
     </div>';
