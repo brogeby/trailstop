@@ -18,6 +18,7 @@ window.addEventListener('click', function(e){
     if(document.getElementById('closing').contains(e.target)){
         setTimeout(function (){
             menu.style.right = "-85%";
+            document.getElementById("closing").style.transform = "rotate(90deg)";
           }, 100);
     }
   });

@@ -21,7 +21,7 @@
     include "parts/front-page/slider.php";
     include "parts/front-page/bar.php";
     include "parts/front-page/front-page-products.php";
-    include "parts/front-page/bar.php";
+    include "parts/front-page/bar-rec.php";
     include "parts/front-page/recommended.php";
     include "parts/footer.php";
     
