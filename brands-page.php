@@ -51,15 +51,12 @@
           <div class="desc">Yeti Cycles is a high-end mountain bike manufacturer. We are Ride Driven.<br><a class="link" href="https://www.yeticycles.com/">Read more</a></div>
         </div>
    </div>
-    <footer class="cell-8">
-        <div class="cell-9">Footer1</div>
-        <div class="cell-10">Footer2</div>
-        <div class="cell-11">Footer3</div>
-        <div class="cell-12">Footer4</div>
-    </footer>
+   
 </div>
   
-
+<?php 
+    include "parts/footer.php";
+?> 
     
 </body>
 </html>
