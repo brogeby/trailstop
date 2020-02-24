@@ -1,4 +1,4 @@
-<!--- Header file ----->
+<!--- Header file Written by Ludvig Olausson ----->
 <link rel="stylesheet" href="../css/header.css">
 <div class="container">
     <div class="Logo" onClick="window.location.href='index.php'"></div>
