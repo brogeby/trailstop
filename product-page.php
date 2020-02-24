@@ -68,5 +68,9 @@
         <p>Maxxis Minion DHF WT Maxx Terra 3C Tubeless Ready 27.5 x 2.5 / Maxxis Aggressor WT EXO Tubeless Ready 27.5 x 2.5</p>
     </div>
 </section>
+
+<?php 
+    include "parts/footer.php";
+?>
 </html>
 
