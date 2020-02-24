@@ -1,3 +1,4 @@
+<!--- All included code is written by Ludvig Olausson --->
 <div class="reco_container">
 <?php 
   for($re_item = 1 ;$re_item <= 9; $re_item++){

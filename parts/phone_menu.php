@@ -1,3 +1,4 @@
+<!--- phone menu starts, written by Ludvig Olausson ---->
 <link rel="stylesheet" href="../css/phone_menu.css">
 <a id="toggle" href="#"></a>
 <div id="menu" class="phone_menu">
@@ -20,3 +21,4 @@
         <div class="box_menu" onclick="window.location.href='contact-page.php'">Contact</div>
     </div>
 </div>
+<!--- phone menu end --->

@@ -1,3 +1,4 @@
+//Written By Ludvig Olausson
 function showCoords(event) {
     var y = event.clientY;
     

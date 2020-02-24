@@ -1,4 +1,4 @@
-
+<!--- All included code is written by Ludvig Olausson --->
 <div class="block_cont">
 <div class="_procontainer">
     <!--- brand looper starts here --->

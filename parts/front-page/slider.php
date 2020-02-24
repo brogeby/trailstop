@@ -1,3 +1,4 @@
+<!--- All included code is written by Ludvig Olausson --->
 <?php
     $img_url = array(
         1    => "https://www.w3schools.com/howto/img_mountains_wide.jpg",

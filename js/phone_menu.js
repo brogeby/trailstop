@@ -1,3 +1,4 @@
+//Written By Ludvig Olausson
 window.addEventListener('click', function(e){   
     if (document.getElementById('menu').contains(e.target) || document.getElementById('ham_menu').contains(e.target)){
         menu.style.right = "0%";
