@@ -42,9 +42,9 @@
             <ul>
                 <div class="sub-header">
                     <h4>Välj</h4>
-                    <input type="checkbox" checked="checked" class="check-box"><li>Dam</li><br>
-                    <input type="checkbox" checked="checked" class="check-box"><li>Herr</li><br>
-                    <input type="checkbox" checked="checked" class="check-box"><li>Junior</li><br>
+                    <input type="checkbox" class="check-box"><li>Dam</li><br>
+                    <input type="checkbox" class="check-box"><li>Herr</li><br>
+                    <input type="checkbox" class="check-box"><li>Junior</li><br>
                 </div>
             </ul>
 
@@ -53,22 +53,22 @@
             <ul>
                 <div class="sub-header">
                     <h4>Storlek</h4>
-                    <input type="checkbox" checked="checked" class="check-box"><li>24"</li><br>
-                    <input type="checkbox" checked="checked" class="check-box"><li>26"</li><br>
-                    <input type="checkbox" checked="checked" class="check-box"><li>27,5"</li><br>
-                    <input type="checkbox" checked="checked" class="check-box"><li>28"</li><br>
+                    <input type="checkbox" class="check-box"><li>24"</li><br>
+                    <input type="checkbox" class="check-box"><li>26"</li><br>
+                    <input type="checkbox" class="check-box"><li>27,5"</li><br>
+                    <input type="checkbox" class="check-box"><li>28"</li><br>
                 </div>
             </ul>
 
             
             <ul>
                 <h4>Varumärke</h4>
-                <input type="checkbox" checked="checked" class="check-box"><li>Cube</li><br>
-                <input type="checkbox" checked="checked" class="check-box"><li>Rocky Mountain</li><br>
-                <input type="checkbox" checked="checked" class="check-box"><li>Scott</li><br>
-                <input type="checkbox" checked="checked" class="check-box"><li>Specialized</li><br>
-                <input type="checkbox" checked="checked" class="check-box"><li>Trek</li><br>
-                <input type="checkbox" checked="checked" class="check-box"><li>Yeti</li>
+                <input type="checkbox" class="check-box"><li>Cube</li><br>
+                <input type="checkbox" class="check-box"><li>Rocky Mountain</li><br>
+                <input type="checkbox" class="check-box"><li>Scott</li><br>
+                <input type="checkbox" class="check-box"><li>Specialized</li><br>
+                <input type="checkbox" class="check-box"><li>Trek</li><br>
+                <input type="checkbox" class="check-box"><li>Yeti</li>
             </ul>
         </div>
   
