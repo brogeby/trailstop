@@ -1,7 +1,15 @@
 <!--- Header file ----->
 <link rel="stylesheet" href="../css/header.css">
 <div class="container">
-    <div class="Logo"></div>  
+    <div class="Logo" onClick="window.location.href='index.php'"></div>
+    <div class="Menu">
+    <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="product-page.php">Products</a></li>
+        <li><a href="brands-page.php">Brands</a></li>
+        <li><a href="category-page.php">Category</a></li>
+    </ul>
+    </div>  
     <div class="Basket">
         <img src="img/basket.svg" alt="Basket">
     </div>
@@ -12,14 +20,17 @@
             <span></span>
         </div>
     </div>
+    <div class="Line">
+        <span></span>
+    </div>
+    <div class="user_area">
+        <a href="#">Mina sidor</a> 
+    </div>
 </div>
-<?php if(basename($_SERVER['SCRIPT_FILENAME'])==="index.php"){
-  echo '<div class="shipping">
+<div class="shipping">
     <div class="midc">
         <img src="img/checkbox.png" alt="checkbox" height="17px" width="17px">
         <p>Gratis frakt över 800kr</p>
     </div>
-  </div>';
-}?>
-
+</div>
 <!--- Header file ends ----->

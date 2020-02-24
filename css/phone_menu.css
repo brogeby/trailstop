@@ -1,0 +1,12 @@
+.phone_menu {
+    height: 100%;
+    width: 85%;
+    background-color: rgb(58, 58, 58);
+    float: right;
+    z-index: 9999;
+    right: -85%;
+    top: 0px;
+    position: fixed;
+    transition: .3s;
+    cursor: pointer;
+}
