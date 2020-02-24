@@ -2,7 +2,16 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer {align-self: flex-end;}
+
 .product-display-container {
+  flex: 1 0 auto;
   display: grid;
   grid-template-rows: auto auto auto;
   grid-template-columns: 100%;
@@ -59,6 +68,7 @@
   width: 80%;
   flex-wrap: wrap;
   color: #2e2e2e;
+  height: auto;
 }
 
 .specifications div {
@@ -71,10 +81,11 @@
 }
 
 
-
-
-
 @media only screen and (min-width: 1000px) {
+
+  .product-display-container .images {
+    width: 100%;
+  }
 
   .product-display-container .info .product-name {
     padding: 10px 0;
