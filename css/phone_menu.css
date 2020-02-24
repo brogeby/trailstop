@@ -49,6 +49,9 @@
     flex-direction: column;
     flex-wrap: nowrap;
 }
+#closing{
+    transition: .3s;
+}
   .search { grid-area: search; }
   
   .ham2 { grid-area: ham2; }

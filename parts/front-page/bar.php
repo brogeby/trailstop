@@ -1,3 +1,3 @@
 <div class="draw-container">
-  <div class="trapezoid"><span>Hello World</span></div>
+  <div class="trapezoid"><span>Products</span></div>
 </div>
