@@ -15,4 +15,9 @@ window.addEventListener('click', function(e){
             toggle.style.paddingTop = "30px";
           }, 300);
     }
+    if(document.getElementById('closing').contains(e.target)){
+        setTimeout(function (){
+            menu.style.right = "-85%";
+          }, 100);
+    }
   });

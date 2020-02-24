@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/front-page-products.css">
     <link rel="stylesheet" href="css/recommended.css">
     <script src="js/phone_menu.js"></script>
-    <style>#arrow_y{transition: .5s;}</style>
+    <style>#arrow_y{transition: .5s; margin: 0 auto;}</style>
 </head>
 <body>
 <?php 
@@ -23,6 +23,7 @@
     include "parts/front-page/front-page-products.php";
     include "parts/front-page/bar.php";
     include "parts/front-page/recommended.php";
+    include "parts/footer.php";
     
 ?>
     <script src="js/slider.js"></script>

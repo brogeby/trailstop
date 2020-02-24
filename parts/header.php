@@ -11,7 +11,7 @@
     </ul>
     </div>  
     <div class="Basket">
-        <img src="img/basket.svg" alt="Basket">
+    <a href="cart-page.php"><img src="img/basket.svg" alt="Basket"></a>
     </div>
     <div class="Hamburger">
         <div id="ham_menu" onclick="outside()" class="hamburger">
@@ -24,7 +24,7 @@
         <span></span>
     </div>
     <div class="user_area">
-        <a href="#">Mina sidor</a> 
+        <a href="register-page.php">Mina sidor</a> 
     </div>
 </div>
 <div class="shipping">
