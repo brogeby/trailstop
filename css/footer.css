@@ -1,4 +1,5 @@
 footer {
+    box-sizing: border-box;
     height: auto;
     min-width: 100vw;
     /* background-color: rgb(207, 207, 207); */
@@ -13,7 +14,7 @@ footer {
 footer > * {margin: 0 auto;}
 footer h5 {text-transform: uppercase;}
 footer p {color: #67539E;}
-.social img {width: 30%;}
+.social img {width: 15%; margin: auto;}
 
 .social {
     display: flex;
