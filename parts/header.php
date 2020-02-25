@@ -4,10 +4,10 @@
     <div class="Logo" onClick="window.location.href='index.php'"></div>
     <div class="Menu">
     <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="product-page.php">Products</a></li>
-        <li><a href="brands-page.php">Brands</a></li>
-        <li><a href="category-page.php">Category</a></li>
+        <li><a href="index.php">Hem</a></li>
+        <li><a href="product-page.php">Våra Cyklar</a></li>
+        <li><a href="brands-page.php">Varumärken</a></li>
+        <li><a href="category-page.php">Kategorier</a></li>
     </ul>
     </div>  
     <div class="Basket">
