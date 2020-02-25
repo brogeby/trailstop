@@ -22,7 +22,7 @@ body {
   display: flex;
   margin: 0;
   flex-direction: column;
-  padding: 10px;
+  padding: 10px 0 40px;
 }
 
 /* FORM STYLING */  
@@ -33,7 +33,7 @@ body {
 .flex-form {
   list-style-type: none;
   width: 100%;
-  padding: 0;
+  padding: 0 auto 30px;
   margin: auto;
 }
 
@@ -110,7 +110,7 @@ body {
 
 @media (min-width: 768px) {
   .hero {margin-bottom: 40px;}
-  .flex-wrapper {flex-direction: row; flex: 1 0 100vw;}
+  .flex-wrapper {flex-direction: row; flex: 1 0 auto;}
   .form-wrapper {flex: 1 0 50%;}
   .service-partners {align-content: flex-start; flex: 0 0 30%;}
   .service-partners img {width: 80%; margin: 35px 0;}
