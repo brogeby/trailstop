@@ -5,7 +5,7 @@
     <div class="Menu">
     <ul>
         <li><a href="index.php">Hem</a></li>
-        <li><a href="product-page.php">Våra Cyklar</a></li>
+        <li><a href="product-page.php">Cyklar</a></li>
         <li><a href="brands-page.php">Varumärken</a></li>
         <li><a href="category-page.php">Kategorier</a></li>
     </ul>
