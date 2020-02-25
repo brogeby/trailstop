@@ -1,7 +1,7 @@
 footer {
     box-sizing: border-box;
     height: auto;
-    min-width: 100vw;
+    /* min-width: 100vw; */
     /* background-color: rgb(207, 207, 207); */
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,7 +13,8 @@ footer {
 
 footer > * {margin: 0 auto;}
 footer h5 {text-transform: uppercase;}
-footer p {color: #67539E;}
+footer p {color: #67539E; font-size: 1em;}
+footer a {color: #67539E; font-size: 1em;}
 .social img {width: 15%; margin: auto;}
 
 .social {

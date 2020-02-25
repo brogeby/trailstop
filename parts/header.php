@@ -4,10 +4,9 @@
     <div class="Logo" onClick="window.location.href='index.php'"></div>
     <div class="Menu">
     <ul>
-        <li><a href="index.php">Hem</a></li>
-        <li><a href="product-page.php">Cyklar</a></li>
-        <li><a href="brands-page.php">Varumärken</a></li>
-        <li><a href="category-page.php">Kategorier</a></li>
+        <li><a href="category-page.php">Cyklar</a></li>
+        <li><a href="reparation-page.php">Service</a></li>
+        <li><a href="contact-page.php">Kontakta oss</a></li>
     </ul>
     </div>  
     <div class="Basket">
