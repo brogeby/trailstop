@@ -1,11 +1,13 @@
 footer {
     height: auto;
-    background-color: rgb(207, 207, 207);
+    min-width: 100vw;
+    /* background-color: rgb(207, 207, 207); */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     padding: 20px;
     gap: 40px;
+    border-top: 5px solid #67539E;
 }
 
 footer > * {margin: 0 auto;}
