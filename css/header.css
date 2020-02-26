@@ -1,6 +1,11 @@
 /* This code is for the header 
 Written by: Ludvig Olausson
 */
+ul {list-style-type: none;}
+li {display: inline;
+    padding: 0px 8% 0px 1%;
+}
+a {text-decoration: none;color:#000;font-size: 22.56px;line-height: 26px;}
 .container {
     display: grid;
     grid-template-columns: 162px 1.5fr 46px 43px;
@@ -10,11 +15,33 @@ Written by: Ludvig Olausson
 }
 .Logo { 
     grid-area: Logo; 
-    margin: 28px 20px
-}
+    margin: 28px 20px;
+    cursor: pointer;
+} 
 .Basket { 
     grid-area: Basket; 
     margin: 28px 0px 0px -13px;
+}
+.Line { grid-area: Line; }
+.user_area { 
+    grid-area: user_area; 
+    margin: 31px 0px 0px 24px;
+    min-width: 100px;
+}
+.user_area a{ 
+    color: purple;
+    font-size: 17.56px;
+}
+.Line span {
+    width: 2px;
+    height: 78%;
+    background-color: rgb(193, 193, 193);
+    margin: 9px 0;
+    display: block;
+}
+.Menu { 
+    grid-area: Menu; 
+    margin: 31px 0px 0px 0px;
 }
 .Hamburger { 
     grid-area: Hamburger; 
@@ -37,7 +64,7 @@ Written by: Ludvig Olausson
     cursor: pointer;
     z-index: 2000;
 }
-span {
+.hamburger span {
     width: 35px;
     height: 5px;
     background-color: rgb(0, 0, 0);
@@ -63,4 +90,24 @@ span {
 .midc {
     width: 200px;
     margin: auto;
+}
+@media only screen and (min-width: 960px) {
+    .container {
+        grid-template-columns: 221px 4.5fr 1.1fr 2px 1fr 0.4fr;
+        grid-template-areas: "Logo Menu . Line user_area Basket";    
+    }
+    .Basket { 
+        grid-area: Basket; 
+        margin: 28px 0px 0px 0px;
+        /*display: none;*/
+    }
+    .Hamburger { 
+        grid-area: Hamburger; 
+        margin: 12px 20px;
+        display: none;
+    }
+    .container > div:nth-child(2) {width: unset;}
+}
+@media only screen and (max-width: 960px) {
+    .Menu, .user_area{display:none;}
 }
