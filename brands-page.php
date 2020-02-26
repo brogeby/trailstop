@@ -7,6 +7,7 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/brands.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    
 </head>
 <body>
     <script src="js/phone_menu.js"></script>
@@ -51,10 +52,8 @@
           <div class="desc">Yeti Cycles is a high-end mountain bike manufacturer. We are Ride Driven.<br><a class="link" href="https://www.yeticycles.com/">Read more</a></div>
         </div>
    </div>
-   
 </div>
-  
-<?php 
+  <?php 
     include "parts/footer.php";
 ?> 
     

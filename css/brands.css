@@ -3,20 +3,17 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 
 
-*, *:before, *:after {
-    box-sizing: border-box;
- }
 
  html , body {
      width:100%;
      height:auto;
  }
   .hero {
-      position:relative;
       width:100%;
-      height:auto;
+      height:100%;
       filter: blur(1px);
       -webkit-filter: blur(1px);
+     
   }
 
   
@@ -60,14 +57,10 @@
     grid-template-rows: auto 200px;
     grid-gap: 2%;
     grid-template-areas:
-        
         "content content content content content content content content content content content content"
         "content content content content content content content content content content content content";
   }
 
-  .cell-1 {
-      grid-area:header;
-  }
   .cell-2 {
       grid-area:content;
   }
@@ -139,7 +132,7 @@
     .wrapper{
      height:auto;
      display:grid;
-     margin-bottom:20px;
+     margin-bottom: 10px;
      grid-template-columns:repeat(4, 1fr) ;
      grid-template-rows:repeat (4,1fr);
      grid-template-areas: 

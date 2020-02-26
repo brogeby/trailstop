@@ -59,6 +59,12 @@
     </div>
     <div class="cart3">
           <h3>Betalning</h3>
+          <label for="ccards">Välj kort:</label>
+        <select class="cards">
+          <option value="visa">Visa</option>
+          <option value="mastercard">Mastercard</option>
+          <option value="amex">American Express</option>
+        </select>
           <label for="cname">Namn på kort</label>
           <input type="text" id="cname" name="cardname" placeholder="Anna Paleologos">
           <label for="ccnum">Kreditkort nummer</label>

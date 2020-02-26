@@ -107,7 +107,7 @@
       width:100%;
   }
  
-  input[type=text] {
+   input[type=text] , select {
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
@@ -115,12 +115,14 @@
     border-radius: 3px;
   }
   
-  label {
+  label{
     margin-bottom: 10px;
     display: block;
     width:100%;
     margin:20px;
   }
+ 
+
   
   .icon-container {
     margin-bottom: 20px;
@@ -194,6 +196,8 @@
     border-radius:5%;
     width:100%;
   }
+
+ 
 
   /*Ipad Pro 12.9*/
   @media  (max-width: 1280px){
