@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>TrailStop</title>
   <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-  <link rel="stylesheet" type='text/css' href="css/contact.css">
+  <link rel='stylesheet' type='text/css' media='screen' href='css/contact.css'>
 </head>
 <body>
 
@@ -17,7 +17,7 @@
 ?>
 
   <div class="container">
-    <h1 class="brand">Kontakta oss</h1>
+    <h1 class="brand">Kontakta </h1>
     <div class="wrapper">
       <div class="company-info">
         <ul>
@@ -61,5 +61,6 @@
       </div>
     </div>
   </div>
+
 </body>
 </html>
