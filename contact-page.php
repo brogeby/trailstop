@@ -9,23 +9,22 @@
   <link rel='stylesheet' type='text/css' media='screen' href='css/contact.css'>
 </head>
 <body>
-
+<!-- Header -->
 <script src="js/phone_menu.js"></script>
 <?php 
     include "parts/header.php";
     include "parts/phone_menu.php";
 ?>
 
-  <div class="container">
-    <h1 class="brand">Kontakta </h1>
+  <div class="container-form">
     <div class="wrapper">
       <div class="company-info">
         <ul>
-          <li>Åsögatan 117</li>
-          <li>08-123-4567</li>
+          <li>Åsögatan 117</li><br>
+          <li>08-123-4567</li><br>
           <li>Trailstop@cmeducations.se</li>
         </ul>
-        <p class="openings">Våra öppettider är:<br> Mån-Fre 9.00 - 15.00</p>
+        <p class="openings">Våra öppettider är:<br> Mån-Sön 9.00 - 15.00</p>
       </div>
       <div class="contact">
         <h3>Mejla oss</h3>
@@ -44,11 +43,7 @@
           </p>
           <p>
             <label>Ärende</label>
-            <select>
-              <option>Välj ärende</option>
-              <option>Reperation</option>
-              <option>Byte och ånger</option>
-            </select>
+            <input text="text" name="matter">
           </p>
           <p class="full">
             <label>Meddelande</label>
@@ -61,6 +56,10 @@
       </div>
     </div>
   </div>
+  <!-- Footer -->
+  <?php 
+    include "parts/footer.php";
+  ?>
 
 </body>
 </html>
