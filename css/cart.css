@@ -186,15 +186,11 @@
     padding:5px;
     text-align: center;
     font-size:25px;
-    color:rebeccapurple;
+    color:black;
   }
 
   .cart {
-    border:1px solid rebeccapurple;
-    background-color:rebeccapurple;
-    color:white;
-    border-radius:5%;
-    width:100%;
+   color:rebeccapurple;
   }
 
  
