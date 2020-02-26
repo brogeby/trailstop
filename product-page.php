@@ -7,10 +7,8 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/product.css'>
-
 </head>
 <body>
-<script src="js/phone_menu.js"></script>
 <?php 
     include "parts/header.php";
     include "parts/phone_menu.php"; 
@@ -68,9 +66,9 @@
         <p>Maxxis Minion DHF WT Maxx Terra 3C Tubeless Ready 27.5 x 2.5 / Maxxis Aggressor WT EXO Tubeless Ready 27.5 x 2.5</p>
     </div>
 </section>
-
 <?php 
     include "parts/footer.php";
 ?>
+<script src="js/phone_menu.js"></script>
 </html>
 

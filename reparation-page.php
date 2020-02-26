@@ -10,7 +10,6 @@
 
 </head>
 <body>
-<script src="js/phone_menu.js"></script>
 <?php 
     include "parts/header.php";
     include "parts/phone_menu.php"; 
@@ -64,6 +63,6 @@
 <?php 
     include "parts/footer.php";
 ?>
-
+<script src="js/phone_menu.js"></script>
 </body>
 </html>
