@@ -9,7 +9,10 @@
         <li><a href="contact-page.php">Kontakta oss</a></li>
     </ul>
     </div>  
-    <div class="Basket">
+    <div id="b_m" class="Basket">
+    <a href="#loading_cart" onclick="showcrt();"><img src="img/basket.svg" alt="Basket"></a>
+    </div>
+    <div class="Basket_mobile">
     <a href="cart-page.php"><img src="img/basket.svg" alt="Basket"></a>
     </div>
     <div class="Hamburger">
@@ -32,4 +35,5 @@
         <p>Gratis frakt över 800kr</p>
     </div>
 </div>
+<?php include "front-page/cart.php" ?>
 <!--- Header file ends ----->
