@@ -26,7 +26,7 @@
         <span></span>
     </div>
     <div class="user_area">
-        <a href="register-page.php">Mina sidor</a> 
+        <a href="register.php">Logga in</a> 
     </div>
 </div>
 <div class="shipping">
