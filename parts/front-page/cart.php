@@ -1,4 +1,4 @@
-
+<!-- Code by Ludvig -->
 <div id="min-ca" class="mini-cart">
 <div class="product_decor"></div>
 <div class="cart_wrapper">
