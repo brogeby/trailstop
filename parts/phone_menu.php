@@ -9,7 +9,7 @@
         <div class="ham2">
             <img id="closing" src="img/close.svg" alt="Close" width="35px">
         </div>
-        <div class="login_text"><a href="register-page.php">Logga in</a></div>
+        <div class="login_text"><a href="register.php">Logga in</a></div>
         <div class="shopping"><a href="cart-page.php"><img src="img/basket.svg" alt="Basket"></a></div>
     </div>
     <div class="flex-menu-wrapper">
