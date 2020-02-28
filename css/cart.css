@@ -268,9 +268,13 @@
    .wrapper{
       display:grid;
       grid-template-columns:1fr 1fr 1fr 1fr ;
-      grid-template-rows:repeat (8,1fr);
+      grid-template-rows:repeat (auto,1fr);
       grid-template-areas: 
         
+      "content content content content"
+      "content content content content"
+      "content content content content"
+      "content content content content"
       "content content content content"
       "content content content content"
       "content content content content"
@@ -300,6 +304,10 @@
      }
      .cart3 {
        width:30%;
+     }
+
+     .box {
+       margin-top:40px;
      }
 
   
