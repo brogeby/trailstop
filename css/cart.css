@@ -40,9 +40,11 @@
   }
   .cart2 {
      grid-area:center;
+     margin-left:40px;
   }
   .cart3{
     grid-area:right;
+    margin-left:40px;
 
   }
 
@@ -159,7 +161,7 @@
   
   
   .box {
-  
+    margin-top:50px;
     border:1px solid rebeccapurple;
     background-color: rebeccapurple;
     width:100%;
@@ -170,7 +172,7 @@
 
   .rek{
     display:flex;
-    flex-wrap: wrap;
+    flex-wrap:nowrap;
     justify-content:center;
 
   }
@@ -193,7 +195,7 @@
    color:rebeccapurple;
   }
 
- 
+
 
   /*Ipad Pro 12.9*/
   @media  (max-width: 1280px){
@@ -268,7 +270,7 @@
    .wrapper{
       display:grid;
       grid-template-columns:1fr 1fr 1fr 1fr ;
-      grid-template-rows:repeat (auto,1fr);
+      grid-template-rows:repeat (12,1fr);
       grid-template-areas: 
         
       "content content content content"
@@ -304,12 +306,19 @@
      }
      .cart3 {
        width:30%;
+      
      }
 
      .box {
-       margin-top:40px;
+       margin-top:150px;
      }
 
+     .rek{
+       display:flex;
+       flex-wrap:wrap;
+     }
+
+    
   
    
   }

@@ -91,25 +91,25 @@
 <div class="box">Rekommederat för dig</div>
   <div class="rek">
     <div class="gallery1">
-        <img src="img/verktyg.jpg"  width="100%" height="200">
+        <img src="img/verktyg.jpg"  width="100%" height="auto">
           <div class="desc">BBB MaxiFold Small multiverktyg<br>
         179 kr</br>
         <a class="cart" href="http://ludvigolausson.se/cart-page.php">Lägg till i kundvagn</a></div>
     </div>
    <div class="gallery2">
-       <img src="img/bell.jpg"  width="100%" height="200">
+       <img src="img/bell.jpg"  width="100%" height="auto">
           <div class="desc">Bell Super Air R</br>
         2 299 kr</br>
        <a class="cart" href="http://ludvigolausson.se/cart-page.php">Lägg till i kundvagn</a></div>
     </div>
    <div class="gallery3">
-       <img src="img/ögon.jpg" width="100%" height="200">
+       <img src="img/ögon.jpg" width="100%" height="auto">
          <div class="desc">Aeroclub Stockholm - High Contrast</br>
         799 kr</br>
        <a class="cart" href="http://ludvigolausson.se/cart-page.php">Lägg till i kundvagn</a></div>
    </div>
    <div class="gallery4">
-       <img src="img/skor.jpg"  width="100%" height="200">
+       <img src="img/skor.jpg"  width="100%" height="auto">
          <div class="desc">Fizik FIZIK Terra X4 Powerstrap Mud/Beige</br>
         1 799 kr</br>
        <a class="cart" href="http://ludvigolausson.se/cart-page.php">Lägg till i kundvagn</a></div>
