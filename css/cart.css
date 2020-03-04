@@ -29,7 +29,7 @@
   .content {
     grid-area:content;
     display: grid;
-    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-columns:repeat(4,1fr);
     grid-gap:2%;
     height:auto;
     grid-template-areas: 
@@ -75,20 +75,14 @@
   .gallery4 {
     grid-area:image4;
   }
-
-
- 
-
-  
-  
-   .content {
+  .content {
     flex-direction:row;
     display:flex;
     
     }
   
   .content{
-    width:100%;
+  
     background-color:white;
     margin:20px;
     margin-right:50px;
@@ -198,7 +192,7 @@
 
 
   /*Ipad Pro 12.9*/
-  @media  (max-width: 1280px){
+  @media  (max-width: 1024px){
 
     .wrapper{
       display:grid;
@@ -207,7 +201,7 @@
       grid-template-rows: repeat(8, 200px;);
       grid-template-areas:
     
-      "content content content content content content content content     content content content content"
+      "content content content content content content content content content content content content"
       "main main main main main main main main main main main main"
        ;
     }
@@ -269,10 +263,9 @@
   @media (max-width:480px){
    .wrapper{
       display:grid;
-      grid-template-columns:1fr 1fr 1fr 1fr ;
+      grid-template-columns:repeat(4,1fr) ;
       grid-template-rows:repeat (12,1fr);
       grid-template-areas: 
-        
       "content content content content"
       "content content content content"
       "content content content content"
@@ -290,6 +283,7 @@
 
     .content{
       display:grid;
+      width:100%;
       grid-gap:3%;
       grid-template-areas:
       "left left left left"
@@ -297,17 +291,7 @@
        "center center center center"
        "right right right right" 
      }
-     .trek {
-       width:40%;
-     }
-
-     .cart2{
-       width:30%;
-     }
-     .cart3 {
-       width:30%;
-      
-     }
+     
 
      .box {
        margin-top:150px;
@@ -319,10 +303,7 @@
        flex-wrap:wrap;
      }
 
-    
-  
-   
-  }
+}
  
   
    
